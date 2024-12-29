@@ -1,0 +1,4 @@
+/Users/mak/CLionProjects/assignment-3-image-transform-ilyin/tester/out/build/msan/CMakeFiles/image-matcher.dir
+/Users/mak/CLionProjects/assignment-3-image-transform-ilyin/tester/out/build/msan/CMakeFiles/check.dir
+/Users/mak/CLionProjects/assignment-3-image-transform-ilyin/tester/out/build/msan/CMakeFiles/edit_cache.dir
+/Users/mak/CLionProjects/assignment-3-image-transform-ilyin/tester/out/build/msan/CMakeFiles/rebuild_cache.dir

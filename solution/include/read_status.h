@@ -1,0 +1,16 @@
+//
+// Created by мак on 29.12.2024.
+//
+
+#ifndef IMAGE_TRANSFORM_READ_STATUS_H
+#define IMAGE_TRANSFORM_READ_STATUS_H
+
+enum read_status  {
+    READ_OK = 0,
+    READ_INVALID_SIGNATURE,
+    READ_INVALID_BITS,
+    READ_INVALID_HEADER,
+    READ_OPEN_FAIL
+};
+
+#endif //IMAGE_TRANSFORM_READ_STATUS_H
