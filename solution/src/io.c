@@ -1,5 +1,6 @@
 #include <io.h>
 #include <stdio.h>
+
 #include "bmp.h"
 
 enum read_status read_img(char* file_path, struct image* img){

@@ -1,4 +1,5 @@
 #include <stdlib.h>
+
 #include "image.h"
 
 void none(struct image* init_img, struct image* transformed_img){

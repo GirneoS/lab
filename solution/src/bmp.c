@@ -1,7 +1,8 @@
 #include <bmp.h>
 #include <stdlib.h>
-#include "write_status.h"
+
 #include "read_status.h"
+#include "write_status.h"
 
 enum read_status from_bmp(FILE* in, struct image* img){
     struct bmp_header headers;

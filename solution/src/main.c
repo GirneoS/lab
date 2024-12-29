@@ -1,8 +1,9 @@
-#include "image.h"
 #include <io.h>
 #include <string.h>
 #include <utils.h>
 #include <write_status.h>
+
+#include "image.h"
 
 int main( int argc, char** argv ) {
     if(argc < 4)
