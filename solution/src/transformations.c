@@ -30,15 +30,15 @@ void flip_h(struct image* init_pic, struct image* final_pic){
 }
 
 void flip_v(struct image* init_pic, struct image* final_pic){
-    final_pic->height = init_image->height;
-    final_pic->width = init_image->width;
+    final_pic->height = init_pic->height;
+    final_pic->width = init_pic->width;
 
     final_pic->data = malloc(final_pic->height * final_pic->width * sizeof(struct pixel));
 
-    for (int64_t i = 0; i < init_image->height; i++) {
-        for (int64_t j = 0; j < init_image->width; j++) {
-            final_pic->data[(init_image->height - 1 - i) * final_pic->width + j] =
-                    init_image->data[i * init_image->width + j];
+    for (int64_t i = 0; i < init_pic->height; i++) {
+        for (int64_t j = 0; j < init_pic->width; j++) {
+            final_pic->data[(init_pic->height - 1 - i) * final_pic->width + j] =
+                    init_pic->data[i * init_pic->width + j];
         }
     }
 }
