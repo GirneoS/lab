@@ -1,7 +1,3 @@
-//
-// Created by мак on 29.12.2024.
-//
-
 #ifndef IMAGE_TRANSFORM_WRITE_STATUS_H
 #define IMAGE_TRANSFORM_WRITE_STATUS_H
 

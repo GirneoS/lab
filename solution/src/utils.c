@@ -1,6 +1,3 @@
-//
-// Created by мак on 29.12.2024.
-//
 #include <stdlib.h>
 #include <utils.h>
 
